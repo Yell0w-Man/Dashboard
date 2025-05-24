@@ -1,0 +1,149 @@
+body{
+    background-color: #032B44;
+    color: orange;
+    font-family: 'Lucida Sans';
+}
+h5{
+    color: orange;
+}
+
+
+#sidebar{
+    backdrop-filter: blur(10px);
+    background-color: #032B44;
+    border: 2px solid orange;
+
+    @media (max-width: 768px) {
+        #sidebar {
+            
+            width: 40%; 
+            max-width: 10em;
+        }
+    }
+}
+.list-group-item{
+    background-color: rgba(60, 56, 94, 0.301);
+}
+a{
+    color: orange;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Ensures equal spacing */
+    align-items: center;
+    gap: 5em;
+    flex-wrap: nowrap; /* Keeps boxes in a row */
+    margin-top: 2em;
+}
+
+.box {
+    flex: 1; /* Allows boxes to resize dynamically */
+    height: 6em;
+    background-color: #032B44;
+    box-shadow: 5px 5px 15px rgba(255, 165, 0, 0.7); /* Orange shadow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1.25em;
+    font-weight: bold;
+    border-radius: 0.4em;
+    padding: 2em;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-wrap: nowrap; 
+        justify-content: center; 
+        padding: 0.3em;
+        gap: 10px;
+    }
+    .box {
+        width: 10%; 
+        font-size: 0.3em;
+        width: 1.3em;
+        gap: 0.5em;
+
+    }
+}
+p{
+    margin-top: 0.5em;
+}
+.container2 {
+    display: flex;
+    box-shadow: 5px 5px 15px rgba(255, 165, 0, 0.7);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    justify-content: center;
+    gap: 1.1em;
+    flex-wrap: nowrap; /* Prevents wrapping */
+}
+
+.box2 {
+    flex: 1; /* Ensures boxes evenly stretch */
+    height: 6em;
+    min-width: 2em !important;
+    width: 10em !important;
+    background-color: #032B44;
+    box-shadow: 5px 5px 15px rgba(255, 165, 0, 0.7); /* Lemon Green Border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 0.6em;
+    padding: 0.6em;
+}
+
+@media (max-width: 768px) {
+    .container2 {
+        flex-wrap: nowrap; 
+        justify-content: center;
+    }
+    .box2 { 
+        font-size: 0.6em; 
+        height: 6em !important;
+        padding: 0.2em;
+    }
+}
+
+.wide-box {
+    width: 90%;
+    max-width: 75em;
+    height: 7em;
+    background-color: #032B44;
+    box-shadow: 5px 5px 15px rgba(255, 165, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+
+
+    @media (max-width:768px) {
+        .wide-box{
+            height: 4em !important;
+            font-size: 0.6em;
+        }
+    }
+}
+
+.heading {
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
