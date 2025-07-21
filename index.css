@@ -1,13 +1,13 @@
 
 @font-face {
-  font-family: 'Bright Aura';
-  src: url('fonts2/bright aura.ttf') format('truetype');
+  font-family: 'bright-Aura';
+  src: url('assets/fonts2/bright-Aura.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-    font-family: 'bright aura';
+    font-family: 'bright-Aura';
     background-color: rgb(10 25 48);
     @media (max-width:480px) {
         font-size: xx-small !important;
