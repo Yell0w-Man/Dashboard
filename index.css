@@ -1,13 +1,13 @@
 
 @font-face {
-  font-family: 'bright-Aura';
-  src: url('assets/fonts2/bright-Aura.ttf') format('truetype');
+  font-family: 'Michroma-Regular';
+  src: url('assets/MichromaNunito_Sans/Michroma/Michroma-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-    font-family: 'bright-Aura';
+    font-family: 'Michroma-Regular';
     background-color: rgb(10 25 48);
     @media (max-width:480px) {
         font-size: xx-small !important;
