@@ -95,48 +95,22 @@ const singFrom = (name) => console.log(`la la la ${name}`)
 
 singFrom(`Florence`);
 
-const today = new Date();
-const jsBirthday = new Date("9/1/1995");
-
-console.log(today.getFullYear());
-console.log(jsBirthday.getFullYear());
-
-const jsAge = today.getFullYear() - jsBirthday.getFullYear();
-console.log(jsAge);
-
-const question = document.getElementById("question");
-console.log(question.innerText);
-
-
-const inputName = document.getElementById("name");
-const inputAge = document.getElementById("age");
-const button = document.querySelector(
-    "main>button"
-);
-
-button.click = function (){
-   const result =
-   inputAge.value > jsAge
-   ? `${inputAge.value} is older than JS`
-   : `${inputAge.value} is younger than JS`;
-console.log(result);
-    inputName.value = "";
-    inputAge.value = "";
-};
-
-
-
 
 
 
 const daams = "saxx";
 console.log(daams);
 
-
-
 for(let i = 1; i <= 10; i++){
     console.log(i);
 } 
 
 
+function singTo (phrase1,phrase2){
+    console.log(phrase1,phrase2)
+}
 
+singTo("lala lafn","la kajdf");
+
+
+ 
