@@ -117,7 +117,7 @@ h6 {
     padding: 1em;
     border-radius: 10px;
     margin-top: 1em !important;
-
+width: 81em !important;
 }
 
 .box2 {
@@ -147,6 +147,7 @@ h6 {
     padding: 30px;
     border-radius: 10px;
     position: relative;
+    width: 81em !important;
 }
 
 .sidebarMenu {
