@@ -90,8 +90,8 @@ h6 {
 
 
     @media (max-width:480px) {
-        width: 70%;
-        margin-left: 4em;
+        width: 90%;
+        margin-left: 2em;
     }
 }
 
@@ -116,10 +116,10 @@ small {
     padding-bottom: 0.2em;
 
     @media (max-width:480px) {
-        width: 70%;
+        width: 90%;
         align-self: center;
         font-size: xx-small;
-        margin-left: 4em;
+        margin-left: 2em;
     }
 
 }
