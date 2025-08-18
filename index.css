@@ -107,7 +107,7 @@ small {
 
 .box {
     background-color: rgb(23 47 71);
-    padding: 0.2em;
+    padding: 1em;
     padding-left: 1em;
     text-align: left;
     border-radius: 5px;
@@ -120,6 +120,7 @@ small {
         align-self: center;
         font-size: xx-small;
         margin-left: 2em;
+        padding: 1em;
     }
 
 }
@@ -141,6 +142,12 @@ small {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 
     font-weight: bold;
+}
+
+.quickstats{
+    @media (max-width:400px) {
+        width: 10%;
+    }
 }
 
 .right {
@@ -208,6 +215,12 @@ small {
     .content {
         font-size: 18px;
     }
+}
+
+.logout{
+   @media (max-width:400px) {
+    margin-top: 14em;
+   }
 }
 
 /* }
