@@ -99,6 +99,7 @@ h3 {
     color: rgb(113 167 162);
     text-shadow:
         0 0 2px #0fa, 0 0 3px #0fa, 0 0 300px #0fa, 0 0 251px #0fa;
+        padding-top: 0.4em;
 }
 
 small {
@@ -161,6 +162,10 @@ small {
     color: rgb(113 167 162);
     text-shadow:
         0 0 2px #0fa, 0 0 2px #0fa, 0 0 3px #0fa, 0 0 300px #0fa, 0 0 251px #0fa;
+
+        @media (max-width:400px) {
+            font-size: 1.2em;
+        }
 }
 
 .container-custom2 {
@@ -181,7 +186,7 @@ small {
 }
 
 .heading2 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(113 167 162);
     position: absolute;
@@ -200,6 +205,10 @@ small {
         0 0 2px #0fa, 0 0 2px #0fa, 0 0 3px #0fa, 0 0 300px #0fa, 0 0 251px #0fa;
 }
 
+.recent{
+    color: rgb(123 145 195);
+    font-size: 0.7em;
+}
 @media (max-width: 768px) {
     .container-custom2 {
         width: 100%;
@@ -207,7 +216,7 @@ small {
     }
 
     .heading2 {
-        font-size: 20px;
+        font-size: 17px;
         left: 10px;
     }
 
