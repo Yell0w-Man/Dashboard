@@ -149,6 +149,7 @@ small {
 }
 
 .quickstats{
+    width: 3%;
     @media (max-width:400px) {
         width: 10%;
     }
@@ -212,12 +213,12 @@ small {
 
 .recent{
     color: rgb(123 145 195);
-    font-size: 0.7em;
+    font-size: 0.7em;  
 }
 @media (max-width: 768px) {
     .container-custom2 {
         width: 100%;
-        padding: 20px;
+        padding: 20px;  
     }
 
     .heading2 {
