@@ -18,6 +18,23 @@ body {
     }
 
 }
+.gradient-underline {
+  position: relative;
+  display: inline-flex;
+}
+
+.gradient-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 7px;
+  width: 10%;
+  height: 3px;
+  background: linear-gradient(to right,  #2ebf91, #8360c3); 
+  border-radius: 2px;
+}
+
+
 
 .side-bar {
     background: rgb(22 42 69);
